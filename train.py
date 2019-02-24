@@ -10,7 +10,7 @@ from data import SurnameDataset
 from tensorboardX import SummaryWriter
 
 if __name__ == '__main__':
-    # データ　ローダー　を準備しよう！
+    # データ　ローダー　を 準備しましょう！
     # TODO: Build data loader.
     train_dataset = None
     train_data_loader = None
@@ -23,27 +23,27 @@ if __name__ == '__main__':
     loss = None
     optimizer = None
 
-    # トレニング　１００エポック　を しよう！
+    # トレニング　１００エポック　を しましょう！
     # TODO: Train the model for 100 epochs.
     for i in range(100):
         for j, sample in enumerate(train_data_loader):
             # 勾配クリア　を　忘れないで〜
             # TODO: Remember to clear the gradient every time.
 
-            # プリディクション　と　コストの計算　を　しよう！
+            # プリディクション　と　コストの計算　を　しましょう！
             # TODO: Prediction and loss calculation.
 
-            # 精度　を　計算しない？
+            # 精度　を　計算しませんか？
             # TODO: Calculate accuracy for the whole batch.
 
-            # 最後に、バックプロパゲーション　を　しよう！
+            # 最後に、バックプロパゲーション　を　しましょう！
             # TODO: Finally, time for back-propagation.
 
-            # バリデーション　を　しない？
+            # バリデーション　を　しませんか？
             # TODO: Do validation every 10 iterations.
 
-            # TensorboardX で　ロッグ　を　しない？
-            # TODO: Log the loss values and accuracies with TensorboardX?
+            # TensorboardX で　ロッグ　を　しませんか？
+            # TODO: Log the loss values and accuracies with TensorboardX.
 
 
             pass
